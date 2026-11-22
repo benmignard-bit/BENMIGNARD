@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="fr" data-lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Benoît Mignard Weinreich — Directeur Commercial · Paiements & Fintech</title>
+<meta name="description" content="Benoît Mignard Weinreich — dirigeant commercial à l'expérience éprouvée dans les paiements et la fintech : Mastercard, Western Union, Thales/Gemalto. P&L, grands comptes bancaires, développement international.">
+<meta property="og:title" content="Benoît Mignard Weinreich — Commercial Director · Payments & Fintech">
+<meta property="og:description" content="Proven commercial leadership in payments and fintech, across Europe and Asia-Pacific.">
+<meta property="og:image" content="assets/og-image.jpg">
+<meta property="og:type" content="profile">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23b8562f'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' fill='%23fff7ee' text-anchor='middle'%3EBM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#f8f2ea; --paper:#fffaf4; --sand:#efe3d4; --line:#e2d3c1;
+  --ink:#2a1d17; --ink-2:#5b4a40; --ink-3:#8a786b;
+  --terra:#b8562f; --terra-d:#8f3f1f; --amber:#e3a35f; --night:#24170f;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --r:18px; --max:1160px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:var(--sans);color:var(--ink);background:var(--cream);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 28px}
+
+/* bilingual */
+html[data-lang="fr"] [lang="en"]:not(html){display:none!important}
+html[data-lang="en"] [lang="fr"]:not(html){display:none!important}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:50;background:rgba(248,242,234,.86);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s}
+.nav.scrolled{border-color:var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.mono{font-family:var(--serif);font-size:20px;font-weight:600;text-decoration:none;letter-spacing:.02em}
+.mono b{color:var(--terra);font-weight:600}
+.nav ul{display:flex;gap:28px;list-style:none}
+.nav ul a{text-decoration:none;font-size:14.5px;color:var(--ink-2);font-weight:500;transition:color .2s}
+.nav ul a:hover{color:var(--terra)}
+.lang{display:flex;border:1px solid var(--line);border-radius:99px;padding:3px;background:var(--paper)}
+.lang button{border:0;background:none;font:600 12.5px var(--sans);letter-spacing:.06em;padding:6px 11px;border-radius:99px;cursor:pointer;color:var(--ink-3)}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--cream)}
+
+/* hero */
+.hero{position:relative;overflow:hidden;padding:72px 0 96px}
+.hero::before{content:"";position:absolute;right:-12%;top:-30%;width:70%;height:150%;background:radial-gradient(closest-side,rgba(227,163,95,.35),rgba(227,163,95,0));pointer-events:none}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center;position:relative}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--terra)}
+.eyebrow::before{content:"";width:28px;height:1.5px;background:var(--terra)}
+h1{font-family:var(--serif);font-weight:500;font-size:clamp(44px,6vw,76px);line-height:1.02;letter-spacing:-.02em;margin:20px 0 24px}
+h1 em{font-style:italic;color:var(--terra)}
+.lead{font-size:clamp(18px,1.6vw,21px);color:var(--ink-2);max-width:34em}
+.cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:36px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:99px;font-weight:600;font-size:15px;text-decoration:none;transition:transform .2s,background .2s,box-shadow .2s}
+.btn svg{width:18px;height:18px}
+.btn-primary{background:var(--terra);color:#fff;box-shadow:0 10px 24px -10px rgba(184,86,47,.7)}
+.btn-primary:hover{background:var(--terra-d);transform:translateY(-2px)}
+.btn-ghost{border:1.5px solid var(--ink);color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--cream)}
+.meta{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:34px;font-size:14px;color:var(--ink-3)}
+.meta span{display:inline-flex;align-items:center;gap:7px}
+.meta span::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--amber)}
+.portrait{position:relative;justify-self:center;width:min(100%,430px)}
+.portrait .frame{border-radius:220px 220px 26px 26px;overflow:hidden;aspect-ratio:4/5;box-shadow:0 40px 80px -30px rgba(80,35,15,.55)}
+.portrait .frame img{width:100%;height:100%;object-fit:cover;object-position:52% 30%}
+.portrait::before{content:"";position:absolute;inset:-14px -14px 22px 14px;border:1.5px solid var(--amber);border-radius:230px 230px 30px 30px;z-index:-1}
+.badge{position:absolute;left:-34px;bottom:46px;background:var(--paper);border-radius:16px;padding:14px 18px;box-shadow:0 18px 40px -18px rgba(60,30,10,.45);display:flex;gap:12px;align-items:center}
+.badge strong{font-family:var(--serif);font-size:30px;font-weight:600;color:var(--terra);line-height:1}
+.badge small{font-size:12.5px;line-height:1.3;color:var(--ink-2);max-width:120px}
+
+/* kpi band */
+.band{background:var(--night);color:var(--cream);position:relative;overflow:hidden}
+.band::after{content:"";position:absolute;left:-10%;top:-60%;width:60%;height:220%;background:radial-gradient(closest-side,rgba(184,86,47,.35),transparent);pointer-events:none}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);position:relative;z-index:1}
+.kpi{padding:44px 26px;border-left:1px solid rgba(255,255,255,.1)}
+.kpi:first-child{border-left:0}
+.kpi .n i{font-style:normal}
+.kpi .n{white-space:nowrap;font-family:var(--serif);font-size:clamp(36px,4vw,52px);font-weight:500;line-height:1;color:var(--amber)}
+.kpi .l{margin-top:12px;font-size:14.5px;color:#d9c8b6;line-height:1.45}
+
+/* sections */
+section{padding:110px 0}
+.head{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;margin-bottom:56px;align-items:end}
+h2{font-family:var(--serif);font-weight:500;font-size:clamp(34px,4vw,50px);line-height:1.08;letter-spacing:-.015em;margin-top:14px}
+h2 em{font-style:italic;color:var(--terra)}
+.head p{color:var(--ink-2);font-size:18px}
+.alt{background:var(--paper)}
+
+/* about */
+.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px}
+.about .quote{font-family:var(--serif);font-size:clamp(24px,2.4vw,31px);line-height:1.3;font-style:italic;color:var(--ink);border-left:3px solid var(--terra);padding-left:26px}
+.about .txt p{color:var(--ink-2);margin-bottom:18px;font-size:18px}
+.about .txt p strong{color:var(--ink);font-weight:600}
+
+/* achievements */
+.ach{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:32px 30px;transition:transform .3s,box-shadow .3s,border-color .3s}
+.card:hover{transform:translateY(-4px);box-shadow:0 24px 50px -28px rgba(80,40,15,.4);border-color:#d6bfa6}
+.card .big{font-family:var(--serif);font-size:46px;font-weight:500;color:var(--terra);line-height:1;letter-spacing:-.02em}
+.card h3{font-size:17px;font-weight:600;margin:16px 0 8px}
+.card p{font-size:15.5px;color:var(--ink-2)}
+.card .tag{display:inline-block;margin-top:18px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+
+/* benefits */
+.ben{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid var(--line)}
+.ben article{padding:36px 32px 36px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:56px 1fr;gap:20px}
+.ben article:nth-child(odd){border-right:1px solid var(--line)}
+.ben article:nth-child(even){padding-left:32px}
+.ico{width:52px;height:52px;border-radius:14px;background:linear-gradient(140deg,#f3d6b4,#e6b07a);display:grid;place-items:center;color:var(--terra-d)}
+.ico svg{width:24px;height:24px}
+.ben h3{font-family:var(--serif);font-size:23px;font-weight:500;margin-bottom:8px}
+.ben p{color:var(--ink-2);font-size:16px}
+.ben .proof{margin-top:12px;font-size:14px;color:var(--terra-d);font-weight:500}
+
+/* timeline */
+.tl{position:relative;margin-left:8px}
+.tl::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--terra),var(--amber) 60%,var(--line))}
+.job{position:relative;padding:0 0 46px 44px;display:grid;grid-template-columns:200px 1fr;gap:28px}
+.job:last-child{padding-bottom:0}
+.job::before{content:"";position:absolute;left:-7px;top:6px;width:16px;height:16px;border-radius:50%;background:var(--cream);border:3px solid var(--terra)}
+.alt .job::before{background:var(--paper)}
+.job .when{font-weight:600;font-size:14.5px;color:var(--terra);letter-spacing:.02em}
+.job .where{font-size:13.5px;color:var(--ink-3);margin-top:4px}
+.job h3{font-family:var(--serif);font-weight:500;font-size:24px;line-height:1.2}
+.job .co{font-weight:600;color:var(--ink-2);font-size:15px;margin:4px 0 12px}
+.job ul{list-style:none}
+.job li{position:relative;padding-left:20px;color:var(--ink-2);font-size:16px;margin-bottom:7px}
+.job li::before{content:"";position:absolute;left:0;top:11px;width:8px;height:1.5px;background:var(--amber)}
+
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.sk{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:30px}
+.sk h3{font-family:var(--serif);font-weight:500;font-size:22px;margin-bottom:6px}
+.sk > p{font-size:15px;color:var(--ink-3);margin-bottom:18px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-size:13.5px;font-weight:500;padding:7px 13px;border-radius:99px;background:var(--sand);color:var(--ink)}
+
+/* world */
+.world{background:var(--night);color:var(--cream);position:relative;overflow:hidden}
+.world .head p{color:#d9c8b6}
+.world h2{color:var(--cream)}
+.map{position:relative;margin:0 auto;max-width:1060px}
+.map img{width:100%}
+.halo{position:absolute;left:46.2%;top:12%;width:9%;height:17%;border-radius:50%;background:radial-gradient(closest-side,rgba(227,163,95,.45),rgba(227,163,95,0));transform:translate(-10%,0)}
+.pin{position:absolute;transform:translate(-50%,-50%);width:13px;height:13px;border-radius:50%;cursor:default}
+.pin::after{content:"";position:absolute;inset:-7px;border-radius:50%;border:1.5px solid currentColor;opacity:.6;animation:pulse 2.6s ease-out infinite}
+.pin.work{background:var(--amber);color:var(--amber)}
+.pin.study{background:#fff3e2;color:#fff3e2}
+.pin .lbl{position:absolute;white-space:nowrap;font-size:12.5px;font-weight:600;letter-spacing:.03em;top:-30px;left:50%;transform:translateX(-50%);background:rgba(36,23,15,.85);padding:3px 9px;border-radius:6px;color:var(--cream);pointer-events:none}
+.pin.l-right .lbl{left:auto;right:auto;transform:none;left:18px;top:-6px}
+.pin.l-left .lbl{transform:none;left:auto;right:18px;top:-6px}
+.pin.l-below .lbl{top:20px}
+@keyframes pulse{0%{transform:scale(.6);opacity:.8}100%{transform:scale(1.9);opacity:0}}
+.legend{display:flex;gap:26px;justify-content:center;margin:26px 0 54px;font-size:14px;color:#d9c8b6}
+.legend span{display:inline-flex;align-items:center;gap:9px}
+.legend i{width:11px;height:11px;border-radius:50%;display:inline-block}
+.places{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;position:relative;z-index:1}
+.place{border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:24px;background:rgba(255,255,255,.03)}
+.place .flag{font-size:28px;line-height:1}
+.place h3{font-family:var(--serif);font-weight:500;font-size:22px;margin:12px 0 4px}
+.place .kind{font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--amber)}
+.place p{font-size:14.5px;color:#d9c8b6;margin-top:10px}
+
+/* education */
+.edu{display:grid;grid-template-columns:1.3fr .7fr;gap:28px}
+.edu-list{display:grid;gap:14px}
+.ed{display:grid;grid-template-columns:110px 1fr;gap:20px;padding:22px 26px;background:var(--paper);border:1px solid var(--line);border-radius:16px;align-items:center}
+.ed .y{font-weight:600;color:var(--terra);font-size:14.5px}
+.ed h3{font-weight:600;font-size:16.5px}
+.ed p{font-size:14.5px;color:var(--ink-3)}
+.langs{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:30px}
+.langs h3{font-family:var(--serif);font-weight:500;font-size:24px;margin-bottom:20px}
+.lg{margin-bottom:18px}
+.lg .row{display:flex;justify-content:space-between;font-size:15px;font-weight:600}
+.lg .row small{font-weight:500;color:var(--ink-3);font-size:13.5px}
+.dots{display:flex;gap:6px;margin-top:8px}
+.dots i{flex:1;height:5px;border-radius:3px;background:var(--sand)}
+.dots i.on{background:linear-gradient(90deg,var(--terra),var(--amber))}
+
+/* contact */
+.contact{text-align:center;padding:120px 0;background:radial-gradient(ellipse at 50% 120%,rgba(227,163,95,.45),transparent 60%),var(--cream)}
+.contact h2{font-size:clamp(38px,5vw,62px);max-width:16em;margin:16px auto 20px}
+.contact p{color:var(--ink-2);max-width:36em;margin:0 auto;font-size:18px}
+.contact .cta{justify-content:center}
+footer{padding:28px 0;border-top:1px solid var(--line);font-size:13.5px;color:var(--ink-3)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+
+/* hero animation */
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+.hero .wrap{z-index:1}
+.intro > *{opacity:0;transform:translateY(18px);animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
+.intro > *:nth-child(1){animation-delay:.15s}.intro > *:nth-child(2){animation-delay:.3s}.intro > *:nth-child(3){animation-delay:.55s}
+.intro > *:nth-child(4){animation-delay:.75s}.intro > *:nth-child(5){animation-delay:.9s}.intro > *:nth-child(6){animation-delay:1.05s}.intro > *:nth-child(7){animation-delay:1.2s}
+@keyframes up{to{opacity:1;transform:none}}
+h1 .w{display:inline-block;overflow:hidden;vertical-align:bottom;padding-bottom:.08em}
+h1 .w > span{display:inline-block;transform:translateY(105%);animation:rise 1s .3s cubic-bezier(.2,.8,.2,1) forwards}
+h1 .w:nth-child(2) > span{animation-delay:.42s}h1 .w:nth-child(3) > span{animation-delay:.54s}
+@keyframes rise{to{transform:none}}
+.portrait.enter{opacity:0;transform:scale(.94) translateY(20px);animation:pin 1.3s .35s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes pin{to{opacity:1;transform:none}}
+.rot{font-family:var(--serif);font-size:clamp(22px,2.2vw,28px);color:var(--ink);margin:-6px 0 22px;display:flex;flex-wrap:wrap;gap:.3em;align-items:baseline}
+.rot .slot{position:relative;display:inline-block;color:var(--terra);font-style:italic;min-width:9em;height:1.3em;overflow:hidden;vertical-align:bottom}
+.rot .slot b{position:absolute;left:0;top:0;font-weight:500;white-space:nowrap;transform:translateY(110%);opacity:0;transition:transform .7s cubic-bezier(.2,.8,.2,1),opacity .7s}
+.rot .slot b.on{transform:none;opacity:1}
+.rot .slot b.out{transform:translateY(-110%);opacity:0}
+.rot .slot::after{content:"";position:absolute;left:0;bottom:2px;height:2px;width:100%;background:linear-gradient(90deg,var(--amber),transparent);transform-origin:left;animation:line 2.8s ease-in-out infinite}
+@keyframes line{0%{transform:scaleX(0)}40%,70%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.scroll-cue{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);width:24px;height:38px;border:1.5px solid var(--ink-3);border-radius:14px;z-index:2;opacity:.7}
+.scroll-cue::after{content:"";position:absolute;left:50%;top:8px;width:4px;height:8px;margin-left:-2px;border-radius:2px;background:var(--terra);animation:cue 1.8s ease-in-out infinite}
+@keyframes cue{0%{transform:translateY(0);opacity:1}70%{transform:translateY(12px);opacity:0}100%{opacity:0}}
+.progress{position:fixed;top:0;left:0;height:3px;width:100%;transform-origin:left;transform:scaleX(0);background:linear-gradient(90deg,var(--terra),var(--amber));z-index:60}
+.totop{position:fixed;right:22px;bottom:22px;width:46px;height:46px;border-radius:50%;border:0;background:var(--ink);color:var(--cream);display:grid;place-items:center;cursor:pointer;opacity:0;transform:translateY(12px);transition:.3s;z-index:55;box-shadow:0 10px 24px -10px rgba(0,0,0,.5)}
+.totop.show{opacity:1;transform:none}
+.totop svg{width:20px;height:20px}
+
+/* trust strip */
+.trust{padding:34px 0 30px;border-bottom:1px solid var(--line)}
+.trust .wrap{display:flex;align-items:center;gap:20px 34px;flex-wrap:wrap;justify-content:space-between}
+.trust small{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.trust ul{display:flex;flex-wrap:wrap;gap:12px 40px;list-style:none;align-items:center}
+.trust li{font-family:var(--serif);font-size:22px;font-weight:500;color:#9c8676;letter-spacing:-.01em;transition:color .3s}
+.trust li:hover{color:var(--terra)}
+
+/* case studies */
+.cases{display:grid;gap:22px}
+.case{display:grid;grid-template-columns:.75fr 1fr 1fr 1fr;background:var(--paper);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;transition:box-shadow .3s}
+.case:hover{box-shadow:0 24px 50px -30px rgba(80,40,15,.45)}
+.case > div{padding:28px 26px;border-left:1px solid var(--line)}
+.case > div:first-child{border-left:0;background:linear-gradient(160deg,#f6e2cc,#efd2b2)}
+.case .co{font-family:var(--serif);font-size:24px;font-weight:500;line-height:1.15}
+.case .yr{font-size:13px;color:var(--terra-d);font-weight:600;margin-top:6px}
+.case .k{font-size:11.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--terra);margin-bottom:8px}
+.case p{font-size:15px;color:var(--ink-2)}
+.case .res{font-family:var(--serif);font-size:34px;color:var(--terra);line-height:1.05;margin-bottom:6px;white-space:nowrap}
+.sub{font-family:var(--serif);font-size:22px;font-weight:500;margin:46px 0 18px}
+
+/* lived countries */
+.lived{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;position:relative;z-index:1}
+.lc{background:var(--paper);color:var(--ink);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;transition:transform .35s}
+.lc:hover{transform:translateY(-5px)}
+.lc .mapbox{background:var(--cream);height:270px;display:flex;align-items:center;justify-content:center;padding:22px}
+.lc .mapbox img{height:100%;width:100%;object-fit:contain}
+.lc .body{padding:24px 26px 28px}
+.lc .top{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.lc h3{font-family:var(--serif);font-weight:500;font-size:28px}
+.lc .yrs{font-size:22px}
+.lc .kind{display:inline-block;margin:8px 0 12px;font-size:11.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--terra)}
+.lc p{font-size:15px;color:var(--ink-2)}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .8s ease,transform .8s ease}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.intro > *,h1 .w > span,.portrait.enter{animation:none!important;opacity:1;transform:none}.rot .slot::after,.scroll-cue::after{animation:none}.rv{opacity:1;transform:none;transition:none}.pin::after{animation:none}html{scroll-behavior:auto}}
+
+/* responsive */
+@media (max-width:980px){
+  .case{grid-template-columns:1fr 1fr}
+  .case > div:nth-child(3){border-left:0}
+  .case > div{border-top:1px solid var(--line)}
+  .case > div:first-child{border-top:0}
+  .lived{grid-template-columns:1fr}
+  .nav ul{display:none}
+  .hero .wrap,.head,.about,.edu{grid-template-columns:1fr}
+  .hero .wrap{gap:56px}
+  .portrait{order:-1;width:min(78%,360px)}
+  .badge{left:-12px}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .kpi:nth-child(3){border-left:0}
+  .kpi{border-top:1px solid rgba(255,255,255,.1)}
+  .ach,.skills{grid-template-columns:1fr 1fr}
+  .places{grid-template-columns:1fr 1fr}
+  .job{grid-template-columns:1fr;gap:8px}
+  .head{gap:16px}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  section{padding:80px 0}
+  .wrap{padding:0 20px}
+  .ach,.skills,.places,.ben{grid-template-columns:1fr}
+  .ben article,.ben article:nth-child(even){padding:28px 0;border-right:0}
+  .pin .lbl{display:none}
+  .ed{grid-template-columns:1fr;gap:4px}
+  .case{grid-template-columns:1fr}
+  .case > div{border-left:0}
+  .trust li{font-size:19px}
+  .scroll-cue{display:none}
+  .kpi{padding:32px 16px}
+  .kpi .n{font-size:32px}
+  .kpi .l{font-size:13.5px}
+}
+@media print{.nav,.lang,.cta{display:none}.rv{opacity:1;transform:none}section{padding:40px 0}}
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="mono">B<b>M</b>W</a>
+    <ul>
+      <li><a href="#realisations"><span lang="fr">Réalisations</span><span lang="en">Achievements</span></a></li>
+      <li><a href="#apport"><span lang="fr">Valeur client</span><span lang="en">Client value</span></a></li>
+      <li><a href="#parcours"><span lang="fr">Parcours</span><span lang="en">Career</span></a></li>
+      <li><a href="#aptitudes"><span lang="fr">Aptitudes</span><span lang="en">Skills</span></a></li>
+      <li><a href="#international">International</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="lang" role="group" aria-label="Langue / Language">
+      <button type="button" data-set="fr" aria-pressed="true">FR</button>
+      <button type="button" data-set="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</nav>
+
+<div class="progress" id="progress"></div>
+<header class="hero" id="top">
+  <canvas id="net" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="intro">
+      <span class="eyebrow"><span lang="fr">Directeur Commercial · Paiements &amp; Fintech</span><span lang="en">Commercial Director · Payments &amp; Fintech</span></span>
+      <h1><span class="w"><span>Benoît</span></span> <span class="w"><span>Mignard</span></span> <span class="w"><span><em>Weinreich</em></span></span></h1>
+      <p class="rot"><span lang="fr">Je fais grandir</span><span lang="en">I grow</span> <span class="slot" data-fr="les revenus|les parts de marché|les équipes|les partenariats bancaires|les marchés internationaux" data-en="revenue|market share|teams|banking partnerships|international markets"></span></p>
+      <p class="lead" lang="fr">Dirigeant commercial à l'expérience éprouvée dans l'industrie des paiements : je transforme une stratégie en résultats mesurables, avec des équipes engagées et des partenaires de confiance — de la carte à puce à l'open banking, de Paris à Sydney.</p>
+      <p class="lead" lang="en">A commercial leader with a proven track record in payments: I turn strategy into measurable results, with engaged teams and trusted partners — from smart cards to open banking, from Paris to Sydney.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://www.linkedin.com/in/benoitmignardweinreich" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          <span lang="fr">Voir mon LinkedIn</span><span lang="en">View my LinkedIn</span>
+        </a>
+        <a class="btn btn-ghost" href="#contact"><span lang="fr">Me contacter</span><span lang="en">Get in touch</span></a>
+      </div>
+      <div class="meta">
+        <span lang="fr">Bordeaux · mobile Paris &amp; Europe</span><span lang="en">Bordeaux · mobile Paris &amp; Europe</span>
+        <span lang="fr">Français · Anglais · Danois</span><span lang="en">French · English · Danish</span>
+      </div>
+    </div>
+    <div class="portrait enter">
+      <div class="frame"><img src="assets/benoit-portrait.jpg" alt="Portrait de Benoît Mignard Weinreich" width="900" height="896"></div>
+      <div class="badge"><strong>3</strong><small lang="fr">pays de vie : France, Danemark, Australie</small><small lang="en">countries lived in: France, Denmark, Australia</small></div>
+    </div>
+  </div>
+  <a href="#profil" class="scroll-cue" aria-label="Défiler / Scroll"></a>
+</header>
+
+<div class="trust">
+  <div class="wrap">
+    <small lang="fr">Une expérience forgée chez</small><small lang="en">Experience built at</small>
+    <ul><li>Mastercard</li><li>Western Union</li><li>Thales · Gemalto</li><li>Schlumberger</li><li>Meria</li></ul>
+  </div>
+</div>
+
+<div class="band">
+  <div class="wrap kpis">
+    <div class="kpi rv"><div class="n"><span lang="fr"><i class="cnt" data-to="290">290</i> M€</span><span lang="en">€<i class="cnt" data-to="290">290</i>M</span></div><div class="l" lang="fr">de P&amp;L piloté en tant que Directeur Général France</div><div class="l" lang="en">P&amp;L led as Country Director, France</div></div>
+    <div class="kpi rv"><div class="n"><span lang="fr"><i class="cnt" data-to="100">100</i> M€+</span><span lang="en">€<i class="cnt" data-to="100">100</i>M+</span></div><div class="l" lang="fr">de portefeuille paneuropéen, 22 entités</div><div class="l" lang="en">pan-European portfolio across 22 entities</div></div>
+    <div class="kpi rv"><div class="n"><i class="cnt" data-to="15">15</i></div><div class="l" lang="fr">pays couverts depuis un seul compte stratégique</div><div class="l" lang="en">countries covered within one strategic account</div></div>
+    <div class="kpi rv"><div class="n">×<i class="cnt" data-to="2">2</i></div><div class="l" lang="fr">part de marché doublée : de 5 % à 10,5 %</div><div class="l" lang="en">market share doubled: from 5% to 10.5%</div></div>
+  </div>
+</div>
+
+<section id="profil">
+  <div class="wrap about">
+    <div class="rv">
+      <span class="eyebrow"><span lang="fr">Profil</span><span lang="en">Profile</span></span>
+      <p class="quote" style="margin-top:22px" lang="fr">« La croissance durable se construit avec la confiance des dirigeants, la rigueur de l'exécution et des équipes qui ont envie de gagner. »</p>
+      <p class="quote" style="margin-top:22px" lang="en">“Sustainable growth is built on executive trust, disciplined execution, and teams that want to win.”</p>
+    </div>
+    <div class="txt rv">
+      <p lang="fr">Dirigeant commercial, j'ai passé l'essentiel de ma carrière au cœur de l'écosystème des paiements : <strong>Mastercard</strong>, <strong>Western Union</strong>, <strong>Thales / Gemalto</strong>, <strong>Schlumberger</strong>, puis les actifs numériques régulés chez <strong>Meria</strong>.</p>
+      <p lang="en">A commercial leader, I have spent most of my career at the heart of the payments ecosystem: <strong>Mastercard</strong>, <strong>Western Union</strong>, <strong>Thales / Gemalto</strong>, <strong>Schlumberger</strong>, then regulated digital assets at <strong>Meria</strong>.</p>
+      <p lang="fr">J'ai dirigé un P&amp;L pays, piloté des comptes bancaires paneuropéens et construit des équipes commerciales en Europe et en Océanie. Ma force : traduire une stratégie en revenus mesurables, en alignant banques, fintechs, régulateurs et équipes internes autour d'objectifs communs.</p>
+      <p lang="en">I have run a country P&amp;L, led pan-European banking accounts and built sales teams in Europe and Oceania. My strength: turning strategy into measurable revenue by aligning banks, fintechs, regulators and internal teams around shared goals.</p>
+      <p lang="fr">Ingénieur INSA Lyon et diplômé d'emlyon business school, je conjugue culture technique, sens du client et goût de l'international.</p>
+      <p lang="en">An INSA Lyon engineer and emlyon business school graduate, I combine technical depth, client focus and an international mindset.</p>
+    </div>
+  </div>
+</section>
+
+<section id="realisations" class="alt">
+  <div class="wrap">
+    <div class="head rv">
+      <div>
+        <span class="eyebrow"><span lang="fr">Réalisations</span><span lang="en">Achievements</span></span>
+        <h2 lang="fr">Des résultats <em>mesurables</em></h2>
+        <h2 lang="en">Results you can <em>measure</em></h2>
+      </div>
+      <p lang="fr">Trois études de cas au format enjeu → action → résultat, et d'autres réussites chiffrées.</p>
+      <p lang="en">Three case studies — challenge → action → result — plus other measurable wins.</p>
+    </div>
+    <div class="cases">
+      <div class="case rv">
+        <div><div class="co">Western Union</div><div class="yr">France · 2018 – 2020</div></div>
+        <div><div class="k" lang="fr">Enjeu</div><div class="k" lang="en">Challenge</div><p lang="fr">Relancer la croissance d'une activité de transferts d'argent mature et accélérer sa digitalisation.</p><p lang="en">Reignite growth in a mature money-transfer business and speed up its digital shift.</p></div>
+        <div><div class="k">Action</div><p lang="fr">Pilotage d'un P&amp;L de 290 M€ et d'environ 80 personnes ; déploiement de 1 000 terminaux chez les partenaires.</p><p lang="en">Ran a €290M P&amp;L and around 80 people; rolled out 1,000 terminals across partners.</p></div>
+        <div><div class="k" lang="fr">Résultat</div><div class="k" lang="en">Result</div><div class="res">+9 %</div><p lang="fr">de croissance sur deux ans, et +50 % sur le canal digital.</p><p lang="en">growth over two years, and +50% on the digital channel.</p></div>
+      </div>
+      <div class="case rv">
+        <div><div class="co">Mastercard</div><div class="yr">Europe · 2012 – 2018</div></div>
+        <div><div class="k" lang="fr">Enjeu</div><div class="k" lang="en">Challenge</div><p lang="fr">Gagner des parts de marché sur des comptes stratégiques très disputés.</p><p lang="en">Win market share on highly contested strategic accounts.</p></div>
+        <div><div class="k">Action</div><p lang="fr">Plans de comptes, propositions de valeur différenciantes et ouverture des cartes commerciales.</p><p lang="en">Account plans, differentiated value propositions and a move into commercial cards.</p></div>
+        <div><div class="k" lang="fr">Résultat</div><div class="k" lang="en">Result</div><div class="res"><span lang="fr">5 → 10,5 %</span><span lang="en">5 → 10.5%</span></div><p lang="fr">de part de marché, 37 M€ de revenus nets et un premier contrat de 9,6 M€.</p><p lang="en">market share, €37M net revenue and a first €9.6M contract.</p></div>
+      </div>
+      <div class="case rv">
+        <div><div class="co">Gemalto (Thales)</div><div class="yr" lang="fr">Océanie · 2007 – 2012</div><div class="yr" lang="en">Oceania · 2007 – 2012</div></div>
+        <div><div class="k" lang="fr">Enjeu</div><div class="k" lang="en">Challenge</div><p lang="fr">S'imposer sur les marchés australien et néo-zélandais, loin du siège.</p><p lang="en">Lead the Australian and New Zealand markets, far from headquarters.</p></div>
+        <div><div class="k">Action</div><p lang="fr">Installation à Sydney, constitution d'une équipe de 10 personnes et relations de haut niveau avec les opérateurs télécoms.</p><p lang="en">Moved to Sydney, built a 10-person team and senior relationships with telecom operators.</p></div>
+        <div><div class="k" lang="fr">Résultat</div><div class="k" lang="en">Result</div><div class="res">56 %</div><p lang="fr">de part de marché en Australie et Nouvelle-Zélande.</p><p lang="en">market share in Australia and New Zealand.</p></div>
+      </div>
+    </div>
+    <h3 class="sub rv"><span lang="fr">Et aussi</span><span lang="en">Also</span></h3>
+    <div class="ach">
+      <div class="card rv"><div class="big"><span lang="fr">+8,5 M€</span><span lang="en">+€8.5M</span></div><h3 lang="fr">Revenus Data &amp; Services</h3><h3 lang="en">Data &amp; Services revenue</h3><p lang="fr">Revenus additionnels sur un compte bancaire paneuropéen de premier plan (22 entités, 15 pays).</p><p lang="en">Incremental revenue on a leading pan-European banking account (22 entities, 15 countries).</p><span class="tag">Mastercard · 2022–2026</span></div>
+      <div class="card rv"><div class="big">42 %</div><h3 lang="fr">Part de marché grands comptes</h3><h3 lang="en">Key-account market share</h3><p lang="fr">+30 % de chiffre d'affaires et prix « Fournisseur de l'année » décerné par une grande banque française.</p><p lang="en">+30% revenue and a “Supplier of the Year” award from a major French bank.</p><span class="tag">Axalto (Thales) · 2004–2007</span></div>
+      <div class="card rv"><div class="big">+34 %</div><h3 lang="fr">Lancement au Royaume-Uni</h3><h3 lang="en">UK launch</h3><p lang="fr">Objectifs dépassés lors du lancement de cartes à puce pour deux grandes banques britanniques.</p><p lang="en">Targets exceeded on a smart-card launch for two major UK banks.</p><span class="tag">Schlumberger · 2000–2003</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="apport">
+  <div class="wrap">
+    <div class="head rv">
+      <div>
+        <span class="eyebrow"><span lang="fr">Bénéfices clients</span><span lang="en">Client benefits</span></span>
+        <h2 lang="fr">Ce que j'apporte <em>à vos clients</em> et à vous</h2>
+        <h2 lang="en">What I bring <em>to your clients</em> and to you</h2>
+      </div>
+      <p lang="fr">Banques, fintechs, distributeurs et partenaires : mon rôle est de créer de la valeur des deux côtés de la table.</p>
+      <p lang="en">Banks, fintechs, retailers and partners: my job is to create value on both sides of the table.</p>
+    </div>
+    <div class="ben">
+      <article class="rv">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg></div>
+        <div><h3 lang="fr">Une croissance de revenus prouvée</h3><h3 lang="en">Proven revenue growth</h3>
+        <p lang="fr">Des plans de comptes concrets qui transforment le potentiel d'un client en chiffre d'affaires récurrent.</p><p lang="en">Concrete account plans that turn client potential into recurring revenue.</p>
+        <p class="proof" lang="fr">→ +8,5 M€ de nouveaux revenus · +9 % sur un P&amp;L de 290 M€</p><p class="proof" lang="en">→ +€8.5M new revenue · +9% on a €290M P&amp;L</p></div>
+      </article>
+      <article class="rv">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><circle cx="17" cy="9.5" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 15.2c.6-.2 1.3-.2 2-.2 2.8 0 4 1.8 4 4"/></svg></div>
+        <div><h3 lang="fr">Des relations de confiance au niveau C</h3><h3 lang="en">Trusted C-level relationships</h3>
+        <p lang="fr">Un interlocuteur crédible pour les directions générales, financières et métiers des banques et grands groupes.</p><p lang="en">A credible counterpart for CEOs, CFOs and business heads of banks and large groups.</p>
+        <p class="proof" lang="fr">→ Prix fournisseur décerné par une grande banque française (2006)</p><p class="proof" lang="en">→ Supplier award from a major French bank (2006)</p></div>
+      </article>
+      <article class="rv">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></svg></div>
+        <div><h3 lang="fr">Des parts de marché gagnées</h3><h3 lang="en">Market share won</h3>
+        <p lang="fr">Une lecture fine de la concurrence et des propositions de valeur différenciantes qui font basculer les décisions.</p><p lang="en">Sharp competitive insight and differentiated value propositions that tip decisions.</p>
+        <p class="proof" lang="fr">→ 5 % → 10,5 % · 56 % en Australie / NZ · 42 % sur un portefeuille grands comptes</p><p class="proof" lang="en">→ 5% → 10.5% · 56% in Australia / NZ · 42% on a key-account portfolio</p></div>
+      </article>
+      <article class="rv">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2.5" width="14" height="19" rx="2.5"/><path d="M9 6.5h6M10.5 18h3"/></svg></div>
+        <div><h3 lang="fr">Une transformation digitale qui rapporte</h3><h3 lang="en">Digital transformation that pays</h3>
+        <p lang="fr">Moderniser les canaux de vente et d'acceptation sans perdre la relation client ni la conformité.</p><p lang="en">Modernising sales and acceptance channels without losing client intimacy or compliance.</p>
+        <p class="proof" lang="fr">→ +50 % sur le canal digital · 1 000 terminaux déployés</p><p class="proof" lang="en">→ +50% digital channel · 1,000 terminals deployed</p></div>
+      </article>
+      <article class="rv">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5l8 3v6c0 5-3.4 8.6-8 10-4.6-1.4-8-5-8-10v-6l8-3z"/><path d="M8.5 12l2.4 2.4 4.6-4.8"/></svg></div>
+        <div><h3 lang="fr">La conformité comme levier commercial</h3><h3 lang="en">Compliance as a commercial lever</h3>
+        <p lang="fr">Une pratique opérationnelle des cadres réglementaires (DSP2/PSR, MiCA, PSAN) pour sécuriser et accélérer les projets.</p><p lang="en">Hands-on command of regulatory frameworks (PSD2/PSR, MiCA, French VASP regime) to de-risk and speed up projects.</p>
+        <p class="proof" lang="fr">→ Développement d'une plateforme d'actifs numériques enregistrée PSAN</p><p class="proof" lang="en">→ Business development for a registered digital-asset platform</p></div>
+      </article>
+      <article class="rv">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="9"/></svg></div>
+        <div><h3 lang="fr">Des équipes engagées et autonomes</h3><h3 lang="en">Engaged, autonomous teams</h3>
+        <p lang="fr">Recruter, coacher et faire grandir des collaborateurs — plusieurs ont été promus en interne.</p><p lang="en">Hiring, coaching and growing people — several were promoted internally.</p>
+        <p class="proof" lang="fr">→ ~80 personnes en France · équipe de 10 en Océanie</p><p class="proof" lang="en">→ ~80 people in France · 10-person team in Oceania</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="parcours" class="alt">
+  <div class="wrap">
+    <div class="head rv">
+      <div>
+        <span class="eyebrow"><span lang="fr">Parcours</span><span lang="en">Career</span></span>
+        <h2 lang="fr">Une carrière <em>au cœur</em> des paiements</h2>
+        <h2 lang="en">A career <em>at the heart</em> of payments</h2>
+      </div>
+      <p lang="fr">Émission, acceptation, transferts internationaux, identité numérique et actifs numériques : une vision complète de la chaîne de valeur.</p>
+      <p lang="en">Issuing, acceptance, cross-border transfers, digital identity and digital assets: a full view of the value chain.</p>
+    </div>
+    <div class="tl">
+      <div class="job rv">
+        <div><div class="when">2022 – 2026</div><div class="where">Paris · Europe</div></div>
+        <div><h3>Business Development Director, Europe</h3><div class="co">Mastercard</div>
+          <ul>
+            <li lang="fr">Pilotage d'un compte bancaire paneuropéen stratégique : 100 M€+, 22 entités, 15 pays.</li><li lang="en">Led a strategic pan-European banking account: €100M+, 22 entities, 15 countries.</li>
+            <li lang="fr">+8,5 M€ de revenus Data &amp; Services ; travail conjoint émission et acceptation.</li><li lang="en">+€8.5M Data &amp; Services revenue; joint work across issuing and acceptance.</li>
+          </ul></div>
+      </div>
+      <div class="job rv">
+        <div><div class="when">2021 – 2022</div><div class="where">Paris</div></div>
+        <div><h3 lang="fr">Directeur du Développement Commercial</h3><h3 lang="en">Business Development Director</h3><div class="co">Meria (Just Mining)</div>
+          <ul>
+            <li lang="fr">Développement d'une plateforme d'actifs numériques régulée, enregistrée PSAN auprès de l'AMF.</li><li lang="en">Grew a regulated digital-asset platform registered with the French AMF.</li>
+            <li lang="fr">Construction de partenariats technologiques et institutionnels.</li><li lang="en">Built technology and institutional partnerships.</li>
+          </ul></div>
+      </div>
+      <div class="job rv">
+        <div><div class="when">2018 – 2020</div><div class="where">Paris</div></div>
+        <div><h3 lang="fr">Directeur Général France</h3><h3 lang="en">Country Director, France</h3><div class="co">Western Union</div>
+          <ul>
+            <li lang="fr">P&amp;L de 290 M€, environ 80 collaborateurs ; +9 % de croissance sur deux ans.</li><li lang="en">€290M P&amp;L, around 80 people; +9% growth over two years.</li>
+            <li lang="fr">+50 % sur le canal digital et 1 000 terminaux de paiement déployés.</li><li lang="en">+50% digital channel and 1,000 payment terminals deployed.</li>
+          </ul></div>
+      </div>
+      <div class="job rv">
+        <div><div class="when">2012 – 2018</div><div class="where">Paris · Europe</div></div>
+        <div><h3>VP Strategic Accounts / Business Leader</h3><div class="co">Mastercard</div>
+          <ul>
+            <li lang="fr">37 M€ de revenus nets ; part de marché portée de 5 % à 10,5 %.</li><li lang="en">€37M net revenue; market share lifted from 5% to 10.5%.</li>
+            <li lang="fr">Signature du premier contrat cartes commerciales : 9,6 M€.</li><li lang="en">Closed the first commercial cards contract: €9.6M.</li>
+          </ul></div>
+      </div>
+      <div class="job rv">
+        <div><div class="when">2007 – 2012</div><div class="where"><span lang="fr">Sydney, Australie</span><span lang="en">Sydney, Australia</span></div></div>
+        <div><h3>Sales Director, Oceania</h3><div class="co">Gemalto (Thales)</div>
+          <ul>
+            <li lang="fr">56 % de part de marché en Australie et Nouvelle-Zélande auprès des opérateurs télécoms.</li><li lang="en">56% market share in Australia and New Zealand with telecom operators.</li>
+            <li lang="fr">Direction d'une équipe de 10 personnes et promotions internes de collaborateurs.</li><li lang="en">Led a 10-person team, with several internal promotions.</li>
+          </ul></div>
+      </div>
+      <div class="job rv">
+        <div><div class="when">2004 – 2007</div><div class="where">Meudon</div></div>
+        <div><h3>Key Account Manager</h3><div class="co">Axalto (Thales)</div>
+          <ul>
+            <li lang="fr">42 % de part de marché et +30 % de chiffre d'affaires sur le portefeuille.</li><li lang="en">42% market share and +30% revenue on the portfolio.</li>
+            <li lang="fr">Prix « Fournisseur de l'année » décerné par une grande banque française (2006).</li><li lang="en">“Supplier of the Year” award from a major French bank (2006).</li>
+          </ul></div>
+      </div>
+      <div class="job rv">
+        <div><div class="when">2000 – 2003</div><div class="where"><span lang="fr">Paris · Royaume-Uni</span><span lang="en">Paris · United Kingdom</span></div></div>
+        <div><h3>Product Manager, Smart Cards &amp; Terminals</h3><div class="co">Schlumberger</div>
+          <ul>
+            <li lang="fr">Lancement de cartes à puce pour deux grandes banques britanniques : +34 % vs objectifs.</li><li lang="en">Smart-card launch for two major UK banks: +34% vs targets.</li>
+          </ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="aptitudes">
+  <div class="wrap">
+    <div class="head rv">
+      <div>
+        <span class="eyebrow"><span lang="fr">Aptitudes</span><span lang="en">Skills</span></span>
+        <h2 lang="fr">Un savoir-faire <em>complet</em></h2>
+        <h2 lang="en">A <em>well-rounded</em> skill set</h2>
+      </div>
+      <p lang="fr">Leadership, expertise sectorielle et sens du résultat : trois piliers qui se renforcent.</p>
+      <p lang="en">Leadership, industry expertise and results focus: three pillars that reinforce each other.</p>
+    </div>
+    <div class="skills">
+      <div class="sk rv">
+        <h3 lang="fr">Leadership &amp; management</h3><h3 lang="en">Leadership &amp; management</h3>
+        <p lang="fr">Diriger, fédérer, faire grandir</p><p lang="en">Lead, rally, develop</p>
+        <div class="chips" lang="fr"><span>Pilotage de P&amp;L</span><span>Direction d'équipes commerciales</span><span>Coaching</span><span>Recrutement</span><span>Conduite du changement</span><span>Management interculturel</span></div>
+        <div class="chips" lang="en"><span>P&amp;L ownership</span><span>Sales team leadership</span><span>Coaching</span><span>Hiring</span><span>Change management</span><span>Cross-cultural management</span></div>
+      </div>
+      <div class="sk rv">
+        <h3 lang="fr">Développement commercial</h3><h3 lang="en">Business development</h3>
+        <p lang="fr">Gagner et fidéliser les grands comptes</p><p lang="en">Win and retain key accounts</p>
+        <div class="chips" lang="fr"><span>Grands comptes bancaires</span><span>Négociation C-level</span><span>Plans de comptes</span><span>Partenariats &amp; alliances</span><span>Appels d'offres</span><span>Go-to-market international</span></div>
+        <div class="chips" lang="en"><span>Banking key accounts</span><span>C-level negotiation</span><span>Account planning</span><span>Partnerships &amp; alliances</span><span>Tenders &amp; RFPs</span><span>International go-to-market</span></div>
+      </div>
+      <div class="sk rv">
+        <h3 lang="fr">Expertise paiements</h3><h3 lang="en">Payments expertise</h3>
+        <p lang="fr">Toute la chaîne de valeur</p><p lang="en">The full value chain</p>
+        <div class="chips" lang="fr"><span>Émission &amp; acceptation</span><span>Tokenisation</span><span>Open banking</span><span>DSP2 / PSR</span><span>MiCA</span><span>Wero / EPI</span><span>Transferts internationaux</span><span>Cartes commerciales</span><span>Identité numérique</span></div>
+        <div class="chips" lang="en"><span>Issuing &amp; acceptance</span><span>Tokenization</span><span>Open banking</span><span>PSD2 / PSR</span><span>MiCA</span><span>Wero / EPI</span><span>Cross-border transfers</span><span>Commercial cards</span><span>Digital identity</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="international" class="world">
+  <div class="wrap">
+    <div class="head rv">
+      <div>
+        <span class="eyebrow"><span lang="fr">International</span><span lang="en">International</span></span>
+        <h2 lang="fr">Trois pays de vie, <em>une vision</em> internationale</h2>
+        <h2 lang="en">Three countries lived in, <em>one</em> international outlook</h2>
+      </div>
+      <p lang="fr">J'ai vécu, étudié et travaillé en France, au Danemark et en Australie — et suivi des clients dans 15 pays européens.</p>
+      <p lang="en">I have lived, studied and worked in France, Denmark and Australia — and served clients across 15 European countries.</p>
+    </div>
+    <div class="map rv" aria-hidden="true">
+      <img src="assets/world-dots.svg" alt="">
+      <div class="halo"></div>
+      <span class="pin work l-left" style="left:49.24%;top:20.9%"><span class="lbl">Paris</span></span>
+      <span class="pin study l-below" style="left:49.95%;top:23.6%"><span class="lbl">Lyon</span></span>
+      <span class="pin study l-right" style="left:52.16%;top:15.5%"><span class="lbl" lang="fr">Copenhague</span><span class="lbl" lang="en">Copenhagen</span></span>
+            <span class="pin work l-below" style="left:91.77%;top:87.1%"><span class="lbl">Sydney</span></span>
+          </div>
+    <div class="legend">
+      <span><i style="background:var(--amber)"></i><span lang="fr">Pays de vie</span><span lang="en">Countries lived in</span></span>
+      <span><i style="background:#fff3e2"></i><span lang="fr">Villes d'études</span><span lang="en">Study cities</span></span>
+      <span><i style="background:rgba(227,163,95,.5)"></i><span lang="fr">Périmètre européen (15 pays)</span><span lang="en">European scope (15 countries)</span></span>
+    </div>
+    <div class="lived">
+      <article class="lc rv">
+        <div class="mapbox"><img src="assets/map-france.svg" alt="France : Paris, Lyon, Bordeaux" loading="lazy"></div>
+        <div class="body">
+          <div class="top"><h3>France</h3><span class="yrs">🇫🇷</span></div>
+          <span class="kind" lang="fr">Études &amp; carrière</span><span class="kind" lang="en">Studies &amp; career</span>
+          <p lang="fr">Ingénieur à l'INSA Lyon, management à emlyon, puis l'essentiel de ma carrière de direction à Paris. Installé aujourd'hui près de Bordeaux, mobile vers Paris et l'Europe.</p>
+          <p lang="en">Engineering at INSA Lyon, management at emlyon, then most of my leadership career in Paris. Now based near Bordeaux, mobile to Paris and across Europe.</p>
+        </div>
+      </article>
+      <article class="lc rv">
+        <div class="mapbox"><img src="assets/map-denmark.svg" alt="Danemark : Copenhague" loading="lazy"></div>
+        <div class="body">
+          <div class="top"><h3 lang="fr">Danemark</h3><h3 lang="en">Denmark</h3><span class="yrs">🇩🇰</span></div>
+          <span class="kind" lang="fr">Études · Copenhague</span><span class="kind" lang="en">Studies · Copenhagen</span>
+          <p lang="fr">Échange MBA à Copenhagen Business School. Un attachement durable au Danemark, à sa langue et à sa culture de la confiance et du consensus.</p>
+          <p lang="en">MBA exchange at Copenhagen Business School. A lasting bond with Denmark, its language and its culture of trust and consensus.</p>
+        </div>
+      </article>
+      <article class="lc rv">
+        <div class="mapbox"><img src="assets/map-australia.svg" alt="Australie : Sydney" loading="lazy"></div>
+        <div class="body">
+          <div class="top"><h3 lang="fr">Australie</h3><h3 lang="en">Australia</h3><span class="yrs">🇦🇺</span></div>
+          <span class="kind" lang="fr">Carrière · Sydney · 5 ans</span><span class="kind" lang="en">Career · Sydney · 5 years</span>
+          <p lang="fr">Directeur des ventes Océanie : une équipe locale, un marché à conquérir à l'autre bout du monde, et 56 % de part de marché en Australie et Nouvelle-Zélande.</p>
+          <p lang="en">Sales Director Oceania: a local team, a market to win on the other side of the world, and 56% market share in Australia and New Zealand.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="formation">
+  <div class="wrap">
+    <div class="head rv">
+      <div>
+        <span class="eyebrow"><span lang="fr">Formation &amp; langues</span><span lang="en">Education &amp; languages</span></span>
+        <h2 lang="fr">Ingénieur <em>et</em> manager</h2>
+        <h2 lang="en">Engineer <em>and</em> manager</h2>
+      </div>
+      <p lang="fr">Une double culture technique et business, renforcée par une expérience internationale.</p>
+      <p lang="en">A dual technical and business background, strengthened by international experience.</p>
+    </div>
+    <div class="edu">
+      <div class="edu-list">
+        <div class="ed rv"><div class="y">1998 – 2000</div><div><h3>MSc in Management</h3><p>emlyon business school</p></div></div>
+        <div class="ed rv"><div class="y">1999 – 2000</div><div><h3 lang="fr">Échange MBA</h3><h3 lang="en">MBA exchange</h3><p>Copenhagen Business School</p></div></div>
+        <div class="ed rv"><div class="y">1995 – 1998</div><div><h3 lang="fr">Diplôme d'ingénieur, génie mécanique</h3><h3 lang="en">Engineering degree, mechanical engineering</h3><p>INSA Lyon</p></div></div>
+      </div>
+      <div class="langs rv">
+        <h3 lang="fr">Langues</h3><h3 lang="en">Languages</h3>
+        <div class="lg"><div class="row"><span lang="fr">Français</span><span lang="en">French</span><small lang="fr">Langue maternelle</small><small lang="en">Native</small></div><div class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div>
+        <div class="lg"><div class="row"><span lang="fr">Anglais</span><span lang="en">English</span><small lang="fr">Courant · professionnel</small><small lang="en">Fluent · professional</small></div><div class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div>
+        <div class="lg"><div class="row"><span lang="fr">Danois</span><span lang="en">Danish</span><small lang="fr">Conversationnel</small><small lang="en">Conversational</small></div><div class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div>
+        <div class="lg"><div class="row"><span lang="fr">Espagnol</span><span lang="en">Spanish</span><small lang="fr">Notions</small><small lang="en">Basic</small></div><div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap rv">
+    <span class="eyebrow">Contact</span>
+    <h2 lang="fr">Parlons de votre <em>prochain cap</em> de croissance</h2>
+    <h2 lang="en">Let's talk about your <em>next stage</em> of growth</h2>
+    <p lang="fr">Direction commerciale, Country Manager, développement de partenariats bancaires et fintech : je suis ouvert aux échanges, à Paris, Bordeaux ou en Europe.</p>
+    <p lang="en">Commercial leadership, Country Manager roles, bank and fintech partnerships: I'm open to conversations in Paris, Bordeaux or across Europe.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="mailto:benmignard@gmail.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        benmignard@gmail.com
+      </a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/benoitmignardweinreich" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> Benoît Mignard Weinreich</span>
+    <span lang="fr">Bordeaux · Paris · Europe</span><span lang="en">Bordeaux · Paris · Europe</span>
+  </div>
+</footer>
+
+<button class="totop" id="totop" type="button" aria-label="Haut de page / Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+
+<script>
+(function(){
+  var root=document.documentElement, btns=document.querySelectorAll('.lang button');
+  function setLang(l){
+    root.setAttribute('data-lang',l); root.setAttribute('lang',l);
+    btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false')});
+    document.title = l==='en' ? 'Benoît Mignard Weinreich — Commercial Director · Payments & Fintech' : 'Benoît Mignard Weinreich — Directeur Commercial · Paiements & Fintech';
+    try{localStorage.setItem('bmw-lang',l)}catch(e){}
+  }
+  var saved=null; try{saved=localStorage.getItem('bmw-lang')}catch(e){}
+  var q=new URLSearchParams(location.search).get('lang');
+  setLang(q==='en'||q==='fr' ? q : saved || ((navigator.language||'fr').slice(0,2)==='fr'?'fr':'en'));
+  btns.forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set)})});
+
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var nav=document.getElementById('nav'), prog=document.getElementById('progress'), totop=document.getElementById('totop');
+  function onScroll(){
+    var y=scrollY, h=document.documentElement.scrollHeight-innerHeight;
+    nav.classList.toggle('scrolled',y>10);
+    prog.style.transform='scaleX('+(h>0?y/h:0)+')';
+    totop.classList.toggle('show',y>innerHeight);
+  }
+  addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  totop.addEventListener('click',function(){scrollTo({top:0,behavior:reduce?'auto':'smooth'})});
+
+  /* rotating words */
+  var slot=document.querySelector('.rot .slot'), rotTimer;
+  function buildRot(){
+    clearInterval(rotTimer);
+    var words=(slot.dataset[root.getAttribute('data-lang')]||'').split('|');
+    slot.innerHTML=words.map(function(w){return '<b>'+w+'</b>'}).join('');
+    var bs=slot.querySelectorAll('b'), i=0, mw=0;
+    bs.forEach(function(b){mw=Math.max(mw,b.offsetWidth)});
+    slot.style.minWidth=(mw+6)+'px';
+    bs[0].classList.add('on');
+    if(reduce) return;
+    rotTimer=setInterval(function(){
+      var prev=bs[i]; prev.classList.remove('on'); prev.classList.add('out');
+      setTimeout(function(){prev.classList.remove('out')},750);
+      i=(i+1)%bs.length; bs[i].classList.add('on');
+    },2800);
+  }
+  buildRot();
+  btns.forEach(function(b){b.addEventListener('click',buildRot)});
+  if(document.fonts&&document.fonts.ready) document.fonts.ready.then(buildRot);
+
+  /* count-up */
+  function count(el){
+    var to=+el.dataset.to, t0=null, d=1600;
+    function f(t){ if(!t0)t0=t; var p=Math.min((t-t0)/d,1), e=1-Math.pow(1-p,3); el.textContent=Math.round(to*e); if(p<1)requestAnimationFrame(f) }
+    requestAnimationFrame(f);
+  }
+  if(!reduce && 'IntersectionObserver' in window){
+    document.querySelectorAll('.cnt').forEach(function(c){c.textContent='0'});
+    var co=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.querySelectorAll('.cnt').forEach(count);co.unobserve(e.target)}})},{threshold:.4});
+    document.querySelectorAll('.kpi').forEach(function(k){co.observe(k)});
+  }
+
+  /* hero: a payments network with transactions flowing between nodes */
+  var cv=document.getElementById('net');
+  if(cv && cv.getContext){
+    var ctx=cv.getContext('2d'), W=0,H=0,nodes=[],pulses=[],last=0,link=150,running=true;
+    function size(){
+      var dpr=Math.min(window.devicePixelRatio||1,2); W=cv.offsetWidth; H=cv.offsetHeight;
+      cv.width=W*dpr; cv.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+      link=W<700?110:150;
+      var n=Math.round(Math.max(24,Math.min(72,W*H/15000))); nodes=[];
+      for(var i=0;i<n;i++) nodes.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.28,vy:(Math.random()-.5)*.28,r:Math.random()*1.8+1});
+    }
+    size(); addEventListener('resize',size);
+    new IntersectionObserver(function(es){running=es[0].isIntersecting; if(running&&!reduce)requestAnimationFrame(frame)}).observe(cv);
+    function frame(t){
+      ctx.clearRect(0,0,W,H);
+      for(var i=0;i<nodes.length;i++){var a=nodes[i];
+        if(!reduce){a.x+=a.vx;a.y+=a.vy; if(a.x<0||a.x>W)a.vx*=-1; if(a.y<0||a.y>H)a.vy*=-1;}
+        for(var j=i+1;j<nodes.length;j++){var b=nodes[j],dx=a.x-b.x,dy=a.y-b.y,d=Math.sqrt(dx*dx+dy*dy);
+          if(d<link){ctx.strokeStyle='rgba(184,86,47,'+(0.24*(1-d/link)).toFixed(3)+')';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}}
+      }
+      if(!reduce && t-last>320 && pulses.length<16){ last=t;
+        var a=nodes[Math.floor(Math.random()*nodes.length)], best=null, bd=1e9;
+        nodes.forEach(function(b){var d=Math.hypot(a.x-b.x,a.y-b.y); if(b!==a&&d<link&&d<bd){bd=d;best=b}});
+        if(best) pulses.push({a:a,b:best,p:0,s:.01+Math.random()*.012});
+      }
+      pulses=pulses.filter(function(q){q.p+=q.s; if(q.p>=1)return false;
+        var x=q.a.x+(q.b.x-q.a.x)*q.p, y=q.a.y+(q.b.y-q.a.y)*q.p, g=ctx.createRadialGradient(x,y,0,x,y,11);
+        g.addColorStop(0,'rgba(227,163,95,.95)'); g.addColorStop(1,'rgba(227,163,95,0)');
+        ctx.fillStyle=g; ctx.beginPath(); ctx.arc(x,y,11,0,7); ctx.fill(); return true;});
+      for(var k=0;k<nodes.length;k++){var n=nodes[k];ctx.fillStyle='rgba(143,63,31,.55)';ctx.beginPath();ctx.arc(n.x,n.y,n.r,0,7);ctx.fill()}
+      if(!reduce && running) requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+  }
+
+  var els=document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    els.forEach(function(el,i){el.style.transitionDelay=(i%3)*80+'ms';io.observe(el)});
+  } else els.forEach(function(el){el.classList.add('in')});
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
