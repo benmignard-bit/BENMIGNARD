@@ -1,5 +1,5 @@
 Benoît Mignard Weinreich
-Français
+En Français
 
 Je suis dirigeant commercial, avec une expérience éprouvée dans les paiements et la fintech. Mon parcours associe développement commercial, pilotage de P&L, direction d'équipes, négociation C-level et partenariats.
 
@@ -29,7 +29,7 @@ Ce dépôt héberge mon site vitrine personnel, un site statique HTML/CSS/JS, sa
 
 index.html : page du site.
 assets/ : ressources du site.
-English
+In English
 
 I am a commercial leader with proven experience in payments and fintech, spanning P&L management, sales leadership, C-level negotiations and partnerships.
 
